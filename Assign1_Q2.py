@@ -11,7 +11,7 @@ def dict(listOfString):
             dict[str]['parity']="even"
         else:
             dict[str]['parity']="odd"
-    print(dict)
+    return dict
 
 def main():
     listOfString=["data", "science"]

@@ -9,14 +9,14 @@ def circleAreaCoverage(radiusOfCircle1, radiusOfCircle2):
     area2=(radiusOfCircle2**2)*math.pi
 
     # Calculate the percentage of the larger circle's area to the smaller one
-    percentage=0
+    coveragePercentage=0
     if area1<area2: # Check if area1 is smaller than area2
-        percentage=(area1/area2)*100
+        coveragePercentage=(area1/area2)*100
     elif area1>area2: # Check if area2 is smaller than area1
-        percentage=(area2/area1)*100
+        coveragePercentage=(area2/area1)*100
     elif area1==area2: # Check if both areas are equal
-        percentage=100
-    return percentage # print out the result
+        coveragePercentage=100
+    return coveragePercentage # print out the result
 
 def main():
 

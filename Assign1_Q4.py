@@ -2,7 +2,7 @@
 # DATA 221_Assignment 1_Q4
 
 from random import random # Import library
-values=[random() for i in range (20)] # Generate list of random numbers
+values=[random() for i in range (20)] # Generate list of random numbers between 0 and 1
 x=random()
 
 values.sort() # sorted the list of random numbers

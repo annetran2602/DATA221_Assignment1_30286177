@@ -8,6 +8,6 @@ data={ # data
     "C":[800,150,400,210]
 }
 df=pd.DataFrame(data)  # build
-df["D"]=df["B"]*df["C"] # create new column & calculate
+df["D"]=df["A"]+df["B"]+df["C"] # create new column & calculate the sum of column A, B and C
 
 print(df)
