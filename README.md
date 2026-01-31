@@ -17,4 +17,4 @@ Assign1_Q6: Create a dictionary that take numbers in the list as keys, make sure
 
 Assign1_Q7: Ask the user for input of number of seconds. Validate the input and display appropriate error message for negative value. Start from midnight, converting seconds to hours, minute and determine whether it is AM or PM. Return a formatted string that contains number of hours, minutes, seconds and AM or PM. 
 
-Assign1_Q8: Create a DataFrame using tne given data. Add new column that calculate the sum of values from columns A, B and C. Print out the final dataframe
+Assign1_Q8: Create a DataFrame using tne given data. Add new column that calculate the sum of values from columns A, B and C. Print out the final dataframe.
